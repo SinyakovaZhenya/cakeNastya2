@@ -192,7 +192,7 @@ html, body {
 }
 
 .mobile-nav-logo {
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 }
 
 .mobile-nav-logo img {
@@ -316,6 +316,7 @@ html, body {
 
 .title2 {
 	text-align: center;
+	font-size: 20px;
 	color: #e57601;
 }
 
