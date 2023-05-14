@@ -7,7 +7,7 @@
 html, body {
 	min-height: 100vh;
 	font-family: 'Gabriela', sans-serif;
-	font-size: 20px;
+	/* font-size: 20px; */
 	position: relative;
 }
 
@@ -41,7 +41,6 @@ html, body {
 
 .nav-project__menu {
 	margin-top: 50px;
-	/* width: 1000px; */
 }
 
 .nav-project__list, .nav__list {
@@ -230,9 +229,6 @@ html, body {
 
 .btn-first {
 	margin-bottom: 20px;
-}
-
-.btn-first {
 	display: block;
 	width: 260px;
 	padding: 8px;
@@ -316,7 +312,6 @@ html, body {
 
 .title2 {
 	text-align: center;
-	font-size: 20px;
 	color: #e57601;
 }
 
@@ -381,16 +376,13 @@ html, body {
 	object-fit: cover;
 	background-repeat: no-repeat;
 	position: relative;
-	text-align: center;
 }
 
 .card p {
 	width: 250px;
-	margin-top: 15px;
-	height: 200px;
+	height: 150px;
 	padding: 10px;
-	font-size: 18px;
-	text-align: center;
+	font-size: 16px;
 }
 
 .product-img {
@@ -402,11 +394,8 @@ html, body {
 }
 
 .item-title {
-	margin-bottom: 20px;
 	padding: 10px;
-	height: 50px;
 	font-family: 'Gabriela', sans-serif;
-   font-size: 24px;
    font-weight: 600;	
 }
 
@@ -429,6 +418,7 @@ html, body {
 }
 
 .card .btn {
+	display: block;
 	width: 80%;
 	padding: 8px;
 	position: absolute;
@@ -437,7 +427,7 @@ html, body {
 	border-bottom: 4px solid #e57601;
 	border-radius: 15px;
 	background-color: #ffa700;
-	transform: translate(-50%, -60px);
+	transform: translate(12%, -60px);
 }
 
 .btn:hover {
@@ -463,8 +453,8 @@ html, body {
 }
 
 h2 {
-	margin: 40px 0;
-	font-size: 30px;
+	margin: 30px 0;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 1.3;
 	color: #062528;
@@ -493,11 +483,15 @@ h2 {
 .title, .title-contacts {
 	margin-top: 80px;
 	margin-bottom: 20px;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 700;
 	line-height: 1.3;
 	color: #062528;
 	text-align: center;
+}
+
+h3 {
+	font-size: 24px;
 }
 
 .payment {
@@ -511,7 +505,6 @@ h2 {
 	border: 0.5px solid #2b5865;
 	border-radius: 15px;
 	box-shadow: 0px 0px 6px 1px #77bed2;
-	text-align: center;
 }
 
 .payment__block-text {
@@ -519,7 +512,7 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 20px 20px 20px;
-	font-size: 24px;
+	font-size: 18px;
 	text-align: left;
 }
 
@@ -568,7 +561,6 @@ h2 {
 }
 
 h3 {
-	font-size: 30px;
    font-weight: 700;
 	font-family: 'Gabriela', sans-serif;
 	margin: 20px;
@@ -579,7 +571,7 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 20px 20px 20px;
-	font-size: 24px;
+	font-size: 18px;
 }
 
 .contact__block-text a {
@@ -648,9 +640,6 @@ h3 {
 	.column {
 		width: 100%;
 	}
-	h4 {
-	font-size: 24px;
-	}
 	.btn-payment {
 		width: 40%;
 		font-size: 30px;
@@ -692,17 +681,7 @@ h3 {
 	.column {
 		width: 100%;
 	}
-	h4 {
-		font-size: 24px;
-	}
-	.item-title {
-		height: 30px;
-		font-size: 20px;
-	}
 	.card .btn {
-		font-size: 20px;
-	}
-	.price {
 		font-size: 20px;
 	}
 	.payment {
@@ -742,7 +721,6 @@ h3 {
 		margin-top: 90px;
 		margin-right: 10px;
 	}
-	
 	.content__general {
 		margin-left: 20px;
 		font-size: 35px;
@@ -760,18 +738,11 @@ h3 {
 	.column {
 		width: 100%;
 	}
-	h4{
-		font-size: 20px;
-	}
-	.item-title {
-		height: 30px;
-		font-size: 20px;
-	}
 	.card .btn {
 		font-size: 20px;
 	}
 	.price {
-		font-size: 10px;
+		font-size: 20px;
 	}
 	.content-payment {
 		padding: 10px;
@@ -795,9 +766,6 @@ h3 {
 	.contact__block {
 		margin: 0px;
 		text-align: center;
-	}
-	.title, .title-contacts {
-		font-size: 30px;
 	}
 	.footer__wrapper {
 		margin-top: 30px;
